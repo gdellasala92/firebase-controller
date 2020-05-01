@@ -14,7 +14,7 @@ import {Presentation} from '../../model/presentation';
     <div>
       <button class="button" (click) ="goToPrevImage()">PREV</button>
       <span class="counter">{{counter + 1}}/ {{items.length}}</span>
-      <button class="button" (click) = "goToNextImage()">NEXT</button>
+      <button class="button" (click) = "goToNextImage()">NEXT </button>
     </div>
   </div>
   
